@@ -12,7 +12,8 @@ int valid =0;
 input : DO stmt_block WHILE '(' condition ')' ';' {printf("Valid Syntax\n"); valid =1;}
         ;
 
-stmt_block : '{' '}' ;
+stmt_block : '{' '}' ;";/l.kjmk,l.kasdfghjasxc{"
+}
 
 condition: ALPHA RELOP ALPHA
          | ALPHA RELOP NUMBER
